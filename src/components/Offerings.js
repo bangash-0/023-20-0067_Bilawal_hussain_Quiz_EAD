@@ -14,7 +14,7 @@ function Offerings() {
 						<Card.Img
 							className="w-10 rounded-circle"
 							variant="top"
-							src="https://picsum.photos/100"
+							src="https://www.pakistanichefrecipes.com/wp-content/uploads/2018/12/Bread-Barfi-500x500.jpg"
 						/>
 						<Card.Body>
 							<Card.Title>
@@ -32,7 +32,7 @@ function Offerings() {
 						<Card.Img
 							className="w-10 rounded-circle"
 							variant="top"
-							src="https://picsum.photos/100"
+							src="https://www.pakistanichefrecipes.com/wp-content/uploads/2018/12/Bread-Barfi-500x500.jpg"
 						/>
 						<Card.Body>
 							<Card.Title>
@@ -50,7 +50,7 @@ function Offerings() {
 						<Card.Img
 							className="w-10 rounded-circle"
 							variant="top"
-							src="https://picsum.photos/100"
+							src="https://www.pakistanichefrecipes.com/wp-content/uploads/2018/12/Bread-Barfi-500x500.jpg"
 						/>
 						<Card.Body>
 							<Card.Title>
@@ -68,7 +68,7 @@ function Offerings() {
 						<Card.Img
 							className="w-10 rounded-circle"
 							variant="top"
-							src="https://picsum.photos/100"
+							src="https://www.pakistanichefrecipes.com/wp-content/uploads/2018/12/Bread-Barfi-500x500.jpg"
 						/>
 						<Card.Body>
 							<Card.Title>
@@ -86,7 +86,7 @@ function Offerings() {
 						<Card.Img
 							className="w-10 rounded-circle"
 							variant="top"
-							src="https://picsum.photos/100"
+							src="https://www.pakistanichefrecipes.com/wp-content/uploads/2018/12/Bread-Barfi-500x500.jpg"
 						/>
 						<Card.Body>
 							<Card.Title>
@@ -104,7 +104,7 @@ function Offerings() {
 						<Card.Img
 							className="w-10 rounded-circle"
 							variant="top"
-							src="https://picsum.photos/100"
+							src="https://www.pakistanichefrecipes.com/wp-content/uploads/2018/12/Bread-Barfi-500x500.jpg"
 						/>
 						<Card.Body>
 							<Card.Title>

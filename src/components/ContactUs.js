@@ -27,6 +27,7 @@ const ContactUs = () => {
 			className="container pt-5 pb-5"
 			style={{ background: "#fff", color: "#000" }}
 		>
+			<h4 className="p-3">Contact Us</h4>
 			<div className="row">
 				<div className="col-md-4 offset-md-2">
 					<Form>

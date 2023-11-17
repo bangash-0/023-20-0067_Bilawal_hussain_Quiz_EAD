@@ -6,15 +6,22 @@ function NavBar() {
 	return (
 		<Navbar
 			expand="lg"
-			className="bg-body-tertiary"
+			className="bg-white "
 		>
 			<Container className="">
-				<Navbar.Brand href="#home">Bakery</Navbar.Brand>
+				<Navbar.Brand href="#home">
+					<img
+						className="rounded-circle"
+						width={70}
+						src="https://static.vecteezy.com/system/resources/previews/012/371/334/original/bakery-logo-design-with-flat-style-of-bakery-chef-hat-and-spoon-illustration-vector.jpg"
+						alt=""
+					/>
+				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="ms-auto">
-						<Nav.Link href="#home">Home</Nav.Link>
-						<Nav.Link href="#link">Menu</Nav.Link>
+						<Nav.Link link="#home">Home</Nav.Link>
+						<Nav.Link href="#offerings">Menu</Nav.Link>
 						<Nav.Link href="#link">About Us</Nav.Link>
 						<Nav.Link href="#link">Contact</Nav.Link>
 					</Nav>
