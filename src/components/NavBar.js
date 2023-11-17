@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
-function NavBar() {
+const NavBar = () => {
 	return (
 		<Navbar
 			expand="lg"
@@ -29,6 +29,6 @@ function NavBar() {
 			</Container>
 		</Navbar>
 	);
-}
+};
 
 export default NavBar;

@@ -1,7 +1,7 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
-function Offerings() {
+const Offerings = () => {
 	return (
 		<section id="offerings">
 			<div className="container">
@@ -119,6 +119,6 @@ function Offerings() {
 			</div>
 		</section>
 	);
-}
+};
 
 export default Offerings;

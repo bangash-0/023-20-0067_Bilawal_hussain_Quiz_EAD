@@ -3,7 +3,7 @@ import Form from "react-bootstrap/Form";
 
 import React, { useState } from "react";
 
-const ContactUs = () => {
+export function ContactUs() {
 	const [fullName, setFullName] = useState("");
 	const [phone, setPhone] = useState("");
 	const [address, setAddress] = useState("");
@@ -125,6 +125,4 @@ const ContactUs = () => {
 			</div>
 		</section>
 	);
-};
-
-export default ContactUs;
+}

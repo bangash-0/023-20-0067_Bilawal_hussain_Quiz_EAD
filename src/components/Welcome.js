@@ -2,12 +2,12 @@ import React from "react";
 
 import Hero from "./Hero";
 import Offerings from "./Offerings";
-import About from "./About";
-import ContactUs from "./ContactUs";
+import { About } from "./About";
+import { ContactUs } from "./ContactUs";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 
-const Welcome = () => {
+export default function Welcome() {
 	return (
 		<>
 			<NavBar />
@@ -18,6 +18,4 @@ const Welcome = () => {
 			<Footer />
 		</>
 	);
-};
-
-export default Welcome;
+}
