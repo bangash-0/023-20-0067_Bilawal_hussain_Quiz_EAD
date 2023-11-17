@@ -3,21 +3,119 @@ import Card from "react-bootstrap/Card";
 
 function Offerings() {
 	return (
-		<Card style={{ width: "10rem" }}>
-			<Card.Img
-				className="w-10"
-				variant="top"
-				src="https://picsum.photos/100"
-			/>
-			<Card.Body>
-				<Card.Title>Card Title</Card.Title>
-				<Card.Text>
-					Some quick example text to build on the card title and make up the
-					bulk of the card's content.
-				</Card.Text>
-				<Button variant="primary">Go somewhere</Button>
-			</Card.Body>
-		</Card>
+		<div className="container">
+			<h4 className="pt-3 pb-5">Our Offersings</h4>
+			<div className="row">
+				<div className="col-md-4 col-sm-6">
+					<Card
+						style={{ width: "12rem", color: "#fff" }}
+						className="bg-transparent border-0 "
+					>
+						<Card.Img
+							className="w-10 rounded-circle"
+							variant="top"
+							src="https://picsum.photos/100"
+						/>
+						<Card.Body>
+							<Card.Title>
+								Barfii <br /> Rs. 900
+							</Card.Title>
+							<Button variant="light">Order now</Button>
+						</Card.Body>
+					</Card>
+				</div>
+				<div className="col-md-4 col-sm-6">
+					<Card
+						style={{ width: "12rem", color: "#fff" }}
+						className="bg-transparent border-0 "
+					>
+						<Card.Img
+							className="w-10 rounded-circle"
+							variant="top"
+							src="https://picsum.photos/100"
+						/>
+						<Card.Body>
+							<Card.Title>
+								Barfii <br /> Rs. 900
+							</Card.Title>
+							<Button variant="light">Order now</Button>
+						</Card.Body>
+					</Card>
+				</div>
+				<div className="col-md-4 col-sm-6">
+					<Card
+						style={{ width: "12rem", color: "#fff" }}
+						className="bg-transparent border-0 "
+					>
+						<Card.Img
+							className="w-10 rounded-circle"
+							variant="top"
+							src="https://picsum.photos/100"
+						/>
+						<Card.Body>
+							<Card.Title>
+								Barfii <br /> Rs. 900
+							</Card.Title>
+							<Button variant="light">Order now</Button>
+						</Card.Body>
+					</Card>
+				</div>
+				<div className="col-md-4 col-sm-6">
+					<Card
+						style={{ width: "12rem", color: "#fff" }}
+						className="bg-transparent border-0 "
+					>
+						<Card.Img
+							className="w-10 rounded-circle"
+							variant="top"
+							src="https://picsum.photos/100"
+						/>
+						<Card.Body>
+							<Card.Title>
+								Barfii <br /> Rs. 900
+							</Card.Title>
+							<Button variant="light">Order now</Button>
+						</Card.Body>
+					</Card>
+				</div>
+				<div className="col-md-4 col-sm-6">
+					<Card
+						style={{ width: "12rem", color: "#fff" }}
+						className="bg-transparent border-0 "
+					>
+						<Card.Img
+							className="w-10 rounded-circle"
+							variant="top"
+							src="https://picsum.photos/100"
+						/>
+						<Card.Body>
+							<Card.Title>
+								Barfii <br /> Rs. 900
+							</Card.Title>
+							<Button variant="light">Order now</Button>
+						</Card.Body>
+					</Card>
+				</div>
+				<div className="col-md-4 col-sm-6">
+					<Card
+						style={{ width: "12rem", color: "#fff" }}
+						className="bg-transparent border-0 "
+					>
+						<Card.Img
+							className="w-10 rounded-circle"
+							variant="top"
+							src="https://picsum.photos/100"
+						/>
+						<Card.Body>
+							<Card.Title>
+								Barfii <br /> Rs. 900
+							</Card.Title>
+							<Button variant="light">Order now</Button>
+						</Card.Body>
+					</Card>
+				</div>
+			</div>
+		</div>
 	);
 }
 
