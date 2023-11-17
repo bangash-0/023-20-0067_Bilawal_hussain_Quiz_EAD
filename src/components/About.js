@@ -7,8 +7,8 @@ const About = () => {
 				className="container"
 				style={{ background: "#C1C3C0", color: "#000" }}
 			>
-				<div className="row p-5">
-					<div className="col-sm-6">
+				<div className="row pt-5">
+					<div className="col-sm-6 p-5">
 						<h2 className="p-5">About US</h2>
 					</div>
 					<div className="col-sm-6">
