@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
 	return (
-		<section id="about-me">
+		<section id="about-us">
 			<div
 				className="container"
 				style={{ background: "#C1C3C0", color: "#000" }}
